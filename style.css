@@ -5,6 +5,9 @@
     box-sizing: border-box;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #080808;
     color: #fff;
@@ -271,7 +274,7 @@ nav ul li a:hover:after{
 }
 .social-icons a{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     margin-right: 15px;
     color: #ababab;
     display: inline-block;
@@ -334,6 +337,7 @@ nav .fas{
     }
     .header-text h1{
         font-size: 30px;
+    
     }
     nav .fas{
         display: block;
@@ -366,4 +370,33 @@ nav .fas{
     .about-col-1, .about-col-2{
         flex-basis: 100%;
     }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+    .tab-links{
+        font-size: 20px;
+        margin-right: 25px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+        padding: 10px;
+    }
+    .contact-left p i{
+        font-size: 20px;
+    }
+    .social-icons a{
+        font-size: 25px;
+        margin-right: 10px;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+}
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
 }
